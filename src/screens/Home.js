@@ -48,13 +48,13 @@ export default function Home() {
 
                         </div>
                         <div className="carousel-item active">
-                            <img src="/images/burger.jpg" className="d-block w-100 " style={{ objectFit: "cover", height: "50vh" }} alt="#" />
+                            <img src="/images/burger.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "50vh" }} alt="#" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/pizza.jpg" className="d-block w-100 " style={{ objectFit: "cover", height: "50vh" }} alt="#" />
+                            <img src="/images/pizza.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "50vh" }} alt="#" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/chilli_paneer.jpg" className="d-block w-100 " style={{ objectFit: "cover", height: "50vh" }} alt="#" />
+                            <img src="/images/chilli_paneer.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "50vh" }} alt="#" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

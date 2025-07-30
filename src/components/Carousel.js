@@ -60,6 +60,39 @@ export default function Carousel() {
                             }}
                         />
                     </div>
+                    
+                    <div className="carousel-item">
+                        <img
+                            src="/images/pizza.jpg"
+                            className="d-block mx-auto"
+                            alt="#"
+                            style={{
+                                display: "block",
+                                margin: "0 auto",
+                                width: "70%",
+                                height: "400px",
+                                objectFit: "cover",
+                                borderRadius: "10px"
+                            }}
+                        />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img
+                            src="/images/burger.jpg"
+                            className="d-block mx-auto"
+                            alt="#"
+                            style={{
+                                display: "block",
+                                margin: "0 auto",
+                                width: "70%",
+                                height: "400px",
+                                objectFit: "cover",
+                                borderRadius: "10px"
+                            }}
+                        />
+                    </div>
+                    
                 </div>
 
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

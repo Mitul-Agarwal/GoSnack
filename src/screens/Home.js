@@ -38,24 +38,34 @@ export default function Home() {
 
             <div>
                 <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" style={{ objectFit: "contain !important" }}>
-                    <div className="carousel-inner" id='caousel'>
+                    <div className="carousel-inner" id='carousel' style={{ maxHeight: "60vh" }}>
 
                         <div className="carousel-caption" style={{ zIndex: "10" }}>   {/* zindex is for telling the depth of the layer, by default is 0. So since we needed the search bar above the carousel so we increased it's zindex*/}
                             <div className="d-flex justify-content-center">
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" value={search} onChange={(e)=>{setSearch(e.target.value)}}/>
                                 {/* <button className="btn btn-outline-success tex-white bg-succuss" type="submit">Search</button> */}
                             </div>
+                        </div>
 
+                        <div className="carousel-item active">
+                            <img src="/images/pizza.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "60vh" }} alt="#" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/images/chicken_biryani.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "60vh" }} alt="#" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/images/chilli_paneer.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "60vh" }} alt="#" />
                         </div>
                         <div className="carousel-item active">
-                            <img src="/images/burger.jpg" className="d-block w-100" alt="#" />
+                            <img src="/images/fish_biryani.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "60vh" }} alt="#" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/pizza.jpg" className="d-block w-100" alt="#" />
+                            <img src="/images/paneer_tikka.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "60vh" }} alt="#" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/burger.jpg" className="d-block w-100" alt="#" />
+                            <img src="/images/burger.jpg" className="d-block w-100 " style={{ objectFit: "contain", height: "60vh" }} alt="#" />
                         </div>
+
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
